@@ -1,0 +1,19 @@
+.btnClear,
+.btnClearOrange,
+.btn {
+  transition: all 0.5s;
+}
+
+.btnClear:hover {
+  background-color: #fff;
+  color: var(--darkOrange);
+}
+
+.btnClearOrange:hover {
+  background-color: var(--lightOrange);
+  color: #fff;
+}
+
+.btn:hover {
+  opacity: 0.5;
+}
